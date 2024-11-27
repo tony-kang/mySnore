@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp
+"tuwanboot\system_stm32f4xx.o"
+"tuwanboot\stm32f4xx_hal_msp.o"
+"tuwanboot\main.o"
+"tuwanboot\stm32f4xx_hal_timebase_tim.o"
+"tuwanboot\stm32f4xx_it.o"
+"tuwanboot\upgarde.o"
+"tuwanboot\flash.o"
+"tuwanboot\stm32f4xx_hal_dma.o"
+"tuwanboot\stm32f4xx_hal_dma_ex.o"
+"tuwanboot\stm32f4xx_hal_pwr_ex.o"
+"tuwanboot\stm32f4xx_hal_rcc.o"
+"tuwanboot\stm32f4xx_hal_flash_ramfunc.o"
+"tuwanboot\stm32f4xx_hal_tim.o"
+"tuwanboot\stm32f4xx_hal.o"
+"tuwanboot\stm32f4xx_hal_rcc_ex.o"
+"tuwanboot\stm32f4xx_hal_flash.o"
+"tuwanboot\stm32f4xx_hal_tim_ex.o"
+"tuwanboot\stm32f4xx_hal_cortex.o"
+"tuwanboot\stm32f4xx_hal_spi.o"
+"tuwanboot\stm32f4xx_hal_gpio.o"
+"tuwanboot\stm32f4xx_hal_flash_ex.o"
+"tuwanboot\stm32f4xx_hal_pwr.o"
+"tuwanboot\startup_stm32f405xx.o"
+--library_type=microlib --strict --scatter "tuwanboot\tuwanboot.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "tuwanboot.map" -o tuwanboot\tuwanboot.axf

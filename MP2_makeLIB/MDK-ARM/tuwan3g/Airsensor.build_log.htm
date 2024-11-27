@@ -1,0 +1,101 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: zzz admin, nbc, LIC=Z3CQD-823VJ-YAGDD-8FI8Z-HIEFG-1Y57M
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.23
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+D:\TUWAN\GIGA_MP1_PLUS_AUTO\MP2_makeLIB\MDK-ARM\tuwan3g.uvprojx
+Project File Date:  05/10/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'tuwan3g'
+compiling position.c...
+..\Src\position.c(27): warning:  #177-D: variable "newm"  was declared but never referenced
+  	uint8_t newm=0;
+..\Src\position.c(28): warning:  #177-D: variable "newmax"  was declared but never referenced
+  	uint16_t newmax=0;
+..\Src\position.c(766): warning:  #550-D: variable "stable_position"  was set but never used
+      uint16_t i,j,stable_position;
+..\Src\position.c(767): warning:  #550-D: variable "min_pressure"  was set but never used
+  	  uint16_t stable_pressure,last_pressure,max_pressure,min_pressure,temp;
+..\Src\position.c(768): warning:  #550-D: variable "max_position"  was set but never used
+  	  uint16_t max_position,min_position;
+..\Src\position.c(768): warning:  #550-D: variable "min_position"  was set but never used
+  	  uint16_t max_position,min_position;
+..\Src\position.c(813): warning:  #550-D: variable "stable_position"  was set but never used
+      uint16_t i,j,stable_position;
+..\Src\position.c(814): warning:  #550-D: variable "min_pressure"  was set but never used
+  	  uint16_t stable_pressure,last_pressure,max_pressure,min_pressure,temp;
+..\Src\position.c(815): warning:  #550-D: variable "max_position"  was set but never used
+  	  uint16_t max_position,min_position;
+..\Src\position.c(815): warning:  #550-D: variable "min_position"  was set but never used
+  	  uint16_t max_position,min_position;
+..\Src\position.c(855): warning:  #177-D: variable "nn"  was declared but never referenced
+  	  uint8_t i,j,nn,mm,up_start_flag=0,down_counter,up_counter,stable_position,temp1,MAX_position,len;
+..\Src\position.c(855): warning:  #177-D: variable "mm"  was declared but never referenced
+  	  uint8_t i,j,nn,mm,up_start_flag=0,down_counter,up_counter,stable_position,temp1,MAX_position,len;
+..\Src\position.c(855): warning:  #177-D: variable "up_start_flag"  was declared but never referenced
+  	  uint8_t i,j,nn,mm,up_start_flag=0,down_counter,up_counter,stable_position,temp1,MAX_position,len;
+..\Src\position.c(855): warning:  #177-D: variable "down_counter"  was declared but never referenced
+  	  uint8_t i,j,nn,mm,up_start_flag=0,down_counter,up_counter,stable_position,temp1,MAX_position,len;
+..\Src\position.c(855): warning:  #177-D: variable "up_counter"  was declared but never referenced
+  	  uint8_t i,j,nn,mm,up_start_flag=0,down_counter,up_counter,stable_position,temp1,MAX_position,len;
+..\Src\position.c(855): warning:  #177-D: variable "temp1"  was declared but never referenced
+  	  uint8_t i,j,nn,mm,up_start_flag=0,down_counter,up_counter,stable_position,temp1,MAX_position,len;
+..\Src\position.c(855): warning:  #550-D: variable "len"  was set but never used
+  	  uint8_t i,j,nn,mm,up_start_flag=0,down_counter,up_counter,stable_position,temp1,MAX_position,len;
+..\Src\position.c(856): warning:  #177-D: variable "temp"  was declared but never referenced
+  	  uint16_t current_pressure,last_pressure,max_pressure,min_pressure,temp;
+..\Src\position.c(857): warning:  #550-D: variable "stepnum_between_downMIN_and_mostMIN"  was set but never used
+  	  uint8_t stepnum_between_downMIN_and_mostMIN,mostMIN_position;
+..\Src\position.c(859): warning:  #550-D: variable "find_special_up_period_flag"  was set but never used
+  	  uint8_t find_special_up_period_flag=0,stepnum_between_mostMIN_and_startUP;
+..\Src\position.c(860): warning:  #550-D: variable "find_agin_special_down_period_flag"  was set but never used
+  	  uint8_t error_up_again_flag=0,find_agin_special_down_period_flag=0;
+..\Src\position.c(863): warning:  #177-D: variable "offset"  was declared but never referenced
+  	  int offset=0;
+..\Src\position.c: 22 warnings, 0 errors
+creating Library...
+After Build - User command #1: fromelf.exe --bin -o "tuwan3g\Airsensor.bin" "tuwan3g\Airsensor.lib"
+Error: Q0466E: An output file can only be specified if there is a single input file
+Finished: 0 information, 0 warning and 1 error messages.
+"tuwan3g\Airsensor.lib" - 0 Error(s), 22 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM::CMSIS:CORE:5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_tuwan3g
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

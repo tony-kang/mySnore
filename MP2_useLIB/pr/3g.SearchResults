@@ -1,0 +1,10 @@
+---- SetContinuous 匹配 (9 in 2 文件) ----
+snore.c (Src):    Config.SetContinuous = 3; //连续第三个
+snore.c (Src):                        if(Config.SetContinuous == 1)
+snore.c (Src):                        if(lastflag>=(Config.SetContinuous-1))
+snore.c (Src):                        if(Config.SetContinuous == 1)
+snore.c (Src):                        if(lastflag>=(Config.SetContinuous-1))
+snore.c (Src):                        Config.SetContinuous = 2;
+snore.c (Src):                            Config.SetContinuous = 3;
+snore.c (Src):                                Config.SetContinuous = 3;
+snore.h (Inc):        int SetContinuous;

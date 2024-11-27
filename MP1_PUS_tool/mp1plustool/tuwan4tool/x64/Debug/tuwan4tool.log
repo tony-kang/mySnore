@@ -1,0 +1,3 @@
+﻿F:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(tuwan4tool.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  main.cpp
+  tuwan4tool.vcxproj -> D:\TUWAN\GIGA_MP1_PLUS_AUTO\MP1_PUS_tool\mp1plustool\x64\Debug\MP1_PLUS_tool.exe

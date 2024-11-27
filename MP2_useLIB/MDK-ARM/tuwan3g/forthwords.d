@@ -1,0 +1,9 @@
+tuwan3g\forthwords.o: ..\Src\Forth\ForthWords.c
+tuwan3g\forthwords.o: ..\Src\Forth\ForthTeminal.h
+tuwan3g\forthwords.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+tuwan3g\forthwords.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+tuwan3g\forthwords.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+tuwan3g\forthwords.o: ../Inc/flash.h
+tuwan3g\forthwords.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+tuwan3g\forthwords.o: ..\Src\Forth\ForthDecode.h
+tuwan3g\forthwords.o: ..\Src\Forth\ForthWords.h
